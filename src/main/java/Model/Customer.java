@@ -11,9 +11,10 @@ public class Customer {
     private int Customer_id;
     private String name;
     private List<customerAddress> custAddress;
-
     private String email;
     private String Phonenumber;
+    private Double custLat;
+    private Double custLng;
 
     @Data
     @Builder(toBuilder = true)

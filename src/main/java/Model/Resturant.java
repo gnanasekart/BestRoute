@@ -22,6 +22,8 @@ public class Resturant {
         private String city;
         private String LandMark;
         private Long Pincode;
+        private Double RestLat;
+        private Double RestLng;
     }
 
     @Data

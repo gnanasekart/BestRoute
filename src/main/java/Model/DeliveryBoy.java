@@ -1,11 +1,15 @@
 package Model;
 
-public class Aman {
+import lombok.Builder;
+import lombok.Data;
 
-    private int aman_id;
+@Data
+@Builder(toBuilder = true)
+public class DeliveryBoy {
+
+    private int deliveryBoyId;
     private String name;
     private String vechileDetail;
     private String star;
-
     private String delPhoneNumber;
 }

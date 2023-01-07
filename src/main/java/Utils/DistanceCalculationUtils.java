@@ -5,7 +5,7 @@ public class DistanceCalculationUtils {
     //haversine distancing algo
 
     public final static double rad = 6371;
-    public int calculateDistanceInKilometer(double userLat, double userLng, double venueLat, double venueLng) {
+    public static int calculateDistanceInKilometer(double userLat, double userLng, double venueLat, double venueLng) {
 
         double latDistance = Math.toRadians(userLat - venueLat);
         double lngDistance = Math.toRadians(userLng - venueLng);
