@@ -4,7 +4,7 @@ Welcome to the BestRoute Approach for a Food Delivery Boy. Here we come up with 
 
 The Purpose of this project is build based on Finding the shortest path for an delivery person to reach the destination or customer location, in between need to collect the order from Restaurant. 
 
-Here the project is design to implement the following items like
+<h4>Here the project is design to implement the following items like</h4>
 1. Readability - The application is build to read the data from an standard input format using some readability and re-usability in real time practice. So Implemented the POJO class to validate the Input/Output by Serialization and Deserialization.
 2. Encapsulation - Here the instance variables is marked as private so that they cannot be accessed directly from outside the class. You can only set and get values of these variables through the methods of the class. For this purpose we used Lombok Library.
 3. Extensibility - Implementation of one class can be reused in another place, like we have some Util file which can be reused to calculate the Distance between two Radius.
@@ -28,4 +28,3 @@ Here the project is design to implement the following items like
 - Assume the Booking customer may be in the same society apartment or same locality nearby means, Batching the order.
 - The Delivery Executive will get the no of order from the same Restaurant or nearby Restaurant in same area But the delivery in same location and direction.
 - The Delivery Executive will get the no of order from the same Restaurant or nearby Restaurant in same area But the delivery in same location and direction.
-- 
